@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_dashboard_white_36dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/nav_lotf"
+        android:icon="@drawable/ic_flag_white_36dp"
+        android:title="@string/laws_of_Nigeria" />
+
+    <item
+        android:id="@+id/nav_court_rules"
+        android:icon="@drawable/ic_language_white_36dp"
+        android:title="@string/court_rules" />
+
+    <item
+        android:id="@+id/nav_court_directory"
+        android:icon="@drawable/ic_book_36dp"
+        android:title="@string/directory" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contact_phone_36"
+        android:title="@string/contact_us" />
+
+</menu>

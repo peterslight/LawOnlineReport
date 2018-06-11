@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Law Online Report</string>
+    <string name="laws_of_Nigeria">LFN</string>
+    <string name="more_options">More</string>
+    <string name="home">Home</string>
+    <string name="court_rules">Court Rules</string>
+    <string name="blog">Blog</string>
+    <string name="share">Share</string>
+    <string name="share_app">Share App</string>
+    <string name="network_error">unable to load data please check your network connection</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact</string>
+    <string name="developer">Developers</string>
+    <string name="refresh">Refresh</string>
+    <string name="more_option">More Options</string>
+    <string name="about_us">About</string>
+    <string name="base_url">https://lawonlinereport.com</string>
+    <string name="search">Search</string>
+    <string name="lor_problem_email">problem@lawonlinereport.com</string>
+    <string name="lor_feature_request_email">request@lawonlinereport.com</string>
+    <string name="lor_motto">Law Reporting and Legal Resource at your Finger Tips</string>
+    <string name="cases">Cases</string>
+    <string name="cases_url">https://www.lawonlinereport.com/cases/</string>
+    <string name="developer_url">https://www.advanapp.com</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="agent_1">Agent 1</string>
+    <string name="agent_2">Agent 2</string>
+    <string name="speak_to_an_agent_instead">Speak to an Agent Instead ?</string>
+    <string name="send_message">Send Message</string>
+    <string name="description">Description...</string>
+    <string name="occupation">Occupation</string>
+    <string name="title">Title</string>
+    <string name="name">Name</string>
+    <string name="directory">Directory</string>
+
+    <string-array name="contact_us">
+        <item>Select a Reason</item>
+        <item>Report An Issue</item>
+        <item>Make A Request</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Select State</item>
+        <item>Abuja</item>
+        <item>Abia</item>
+        <item>Adamawa</item>
+        <item>Akwa Ibom</item>
+        <item>Anambra</item>
+        <item>Bauchi</item>
+        <item>Bayelsa</item>
+        <item>Benue</item>
+        <item>Borno</item>
+        <item>Cross River</item>
+        <item>Delta</item>
+        <item>Ebonyi</item>
+        <item>Edo</item>
+        <item>Ekiti</item>
+        <item>Enugu</item>
+        <item>Gombe</item>
+        <item>Imo</item>
+        <item>Jigawa</item>
+        <item>Kaduna</item>
+        <item>Kano</item>
+        <item>Katsina</item>
+        <item>Kebbi</item>
+        <item>Kogi</item>
+        <item>Kwara</item>
+        <item>Lagos</item>
+        <item>Nasarawa</item>
+        <item>Niger</item>
+        <item>Ogun</item>
+        <item>Ondo</item>
+        <item>Osun</item>
+        <item>Oyo</item>
+        <item>Plateau</item>
+        <item>Rivers</item>
+        <item>Sokoto</item>
+        <item>Taraba</item>
+        <item>Yobe</item>
+        <item>Zamfara</item>
+    </string-array>
+</resources>

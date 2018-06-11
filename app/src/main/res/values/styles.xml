@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+
+    <style name="SpinnerTheme" parent="AppBaseTheme">
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinner</item>
+        <item name="android:spinnerItemStyle">@style/mySpinnerTextColor</item>
+    </style>
+
+    <style name="mySpinner" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+        <!--<item name="android:textColor">@color/colorWhite</item>-->
+        <!--<item name="android:state_enabled">@color/colorWhite</item>-->
+    </style>
+
+    <style name="mySpinnerTextColor" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyleLight" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/DialogTitleStyle</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="DialogTitleStyle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyleDark" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/DialogTitleStyleLight</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <style name="DialogTitleStyleLight" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="searchStyle" parent="@style/Widget.AppCompat.SearchView">
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:radius">10dp</item>
+        <item name="android:drawable">@drawable/search_view_drawable</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+</resources>

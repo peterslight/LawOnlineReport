@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/contact_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColor="@color/colorGoldDark"
+                android:textColorHint="@color/colorWhite" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/contact_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorGoldDark"
+                android:entries="@array/contact_us"
+                android:padding="5dp"
+                android:theme="@style/mySpinner" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/contact_states"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorGoldDark"
+                android:entries="@array/states"
+                android:padding="5dp"
+                android:theme="@style/mySpinner" />
+
+            <EditText
+                android:id="@+id/contact_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:hint="@string/title"
+                android:inputType="textAutoComplete"
+                android:padding="15dp"
+                android:textColor="@color/colorGoldDark"
+                android:textColorHint="@color/colorWhite" />
+
+            <EditText
+                android:id="@+id/contact_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:hint="@string/occupation"
+                android:inputType="textAutoComplete"
+                android:padding="15dp"
+                android:textColor="@color/colorGoldDark"
+                android:textColorHint="@color/colorWhite" />
+
+            <EditText
+                android:id="@+id/contact_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:hint="@string/description"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/colorGoldDark"
+                android:textColorHint="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/contact_send"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_image_selector"
+                android:text="@string/send_message"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:text="@string/speak_to_an_agent_instead"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/contact_call_1"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_image_selector"
+                    android:drawableStart="@drawable/ic_call"
+                    android:paddingStart="10dp"
+                    android:text="@string/agent_1"
+                    android:textColor="@color/colorBlack"
+                    tools:ignore="RtlSymmetry" />
+
+                <Button
+                    android:id="@+id/contact_call_2"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_image_selector"
+                    android:drawableEnd="@drawable/ic_call"
+                    android:paddingEnd="10dp"
+                    android:text="@string/agent_2"
+                    android:textColor="@color/colorBlack"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
