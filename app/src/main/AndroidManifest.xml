@@ -64,7 +64,7 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="0ead5800d825e90c7cb8519337ce855df4aad453" />
+            android:value="Get Key From Fabric Dashboard" />
     </application>
 
 </manifest>
