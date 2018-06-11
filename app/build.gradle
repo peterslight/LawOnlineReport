@@ -4,10 +4,10 @@ apply plugin: 'io.fabric'
 android {
     signingConfigs {
         config {
-            keyAlias 'professional development'
-            keyPassword 'ppeterstev'
-            storeFile file('C:/Android/sdk/Android Apps KeyStore/peterstev_keystore')
-            storePassword 'ppeterstev'
+            keyAlias 'pd'
+            keyPassword 'iykyk'
+            storeFile file('C:/path goes in here')
+            storePassword 'iykyk'
         }
     }
     compileSdkVersion 26
